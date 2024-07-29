@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+  
+ 
+        <meta name="color-scheme" content="light dark">
+       
+        <link rel="stylesheet" href="css/calculator.css">
+        <script src="js/calculator.js"></script>
+
+        <title>Calculator</title>
+    </head>
+    <body>
+
+
+              <input  id ="operation" type="hidden" value="0">
+              <input  id ="operand" type="hidden" value=""> <!--storage  first nomber-->
+              <input id ="equlvalent"   type="hidden"   value="0">
+              <input id ="decimalVar"   type="hidden"   value="0">
+           <table>
+            <caption><input  id ="result" type="text" value="0" readonly ></caption>
+
+              <tr>
+                <td><input id="allclear" value="ac" type="button" onclick="allClear()"></td>
+                <td><input id="square" value="x&sup2;" type="button" onclick="square()"></td>
+                <td><input id="percent" value="%" type="button" onclick="percent()"></td>
+                <td><input id="divide" value="&divide;" type="button" onclick="operators(4)"></td>
+              </tr>
+
+
+              <tr>
+                <td><input id="seven" value="7" type="button" onclick="input(7)"></td>
+                <td><input id="eight" value="8" type="button" onclick="input(8)"></td>
+                <td><input id="nine" value="9" type="button" onclick="input(9)"></td>
+                <td><input id="multiply" value="&times;" type="button" onclick="operators(3)"></td>
+              </tr>
+
+
+              <tr>
+                <td><input id="four" value="4" type="button" onclick="input(4)"></td>
+                <td><input id="five" value="5" type="button" onclick="input(5)"></td>
+                <td><input id="six" value="6" type="button" onclick="input(6)"></td>
+                <td><input id="subtract" value="&minus;" type="button" onclick="operators(2)"></td>
+              </tr>
+
+
+              <tr>
+                <td><input id="one" value="1" type="button" onclick="input(1)"></td>
+                <td><input id="two" value="2" type="button" onclick="input(2)"></td>
+                <td><input id="three" value="3" type="button" onclick="input(3)"></td>
+                <td><input id="add" value="&plus;" type="button" onclick="operators(1)"></td>
+              </tr>
+
+
+              <tr>
+                <td><input id="plusminus" value="&plusmn;" type="button" onclick="plusminus()"></td>
+                <td><input id="zero" value="0" type="button" onclick="input(0)"></td>
+                <td><input id="decimal" value="." type="button" onclick="decimalPoint()"></td>
+                <td><input id="equals" value="=" type="button" onclick="equals()"></td>
+              </tr>
+
+
+
+           </table>
+
+     
+        
+        
+     
+        <script src="js/calculator.js"></script>
+    </body>
+</html>
