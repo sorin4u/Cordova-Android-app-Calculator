@@ -46,7 +46,7 @@ function input(x){
  }
 
 /*
-        if (document.getElementById('result').value ==0)//schimba 0 cind introduci alt numar
+        if (document.getElementById('result').value ==0)
 
             {
              document.getElementById('result').value = x;
@@ -61,7 +61,7 @@ function input(x){
 
 function decimalPoint(){
 
-if(document.getElementById('decimalVar').value == 0){ //previne moltiple decimale
+if(document.getElementById('decimalVar').value == 0){ 
 
   document.getElementById('decimalVar').value =1;
 
